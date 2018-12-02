@@ -16,7 +16,7 @@ This is a simple example of prescriptive analytics. In this case we implemented 
 ### Running...
 `python celphones.py`
 
-### How it works?
+## How it works?
 We have a random-made dataset made of 10,000 of celphones with different features such as : Price, Camera MP and Use life.
 The program simply takes user input on the preferences over these criteria by applying a Saaty-scale[1] survey.
 Weight is calculated via the algorithm AHP (Analytic Hierachical Process)[1].
