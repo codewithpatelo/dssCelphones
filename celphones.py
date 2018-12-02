@@ -39,7 +39,7 @@ elif q1 != 1:
 	if q1 == 3:
 		q1b = 1 / q1b
 else:
-	q1b == 1
+	q1b = 1
 
 print('Do you prefer a celphone that is cheap or one that last more time?')
 tm.sleep(.300)
@@ -68,7 +68,7 @@ elif q2 != 1:
 	if q2 == 3:
 		q2b = 1 / q1b
 else:
-	q2b == 1
+	q2b = 1
 
 print('Do you prefer a celphone that has a good camera or one that last more time?')
 tm.sleep(.300)
@@ -96,7 +96,7 @@ elif q3 != 1:
 	if q3 == 3:
 		q3b = 1 / q3b
 else:
-	q3b == 1
+	q3b = 1
 	
 
 # Criteria Matrix
@@ -119,8 +119,6 @@ eighen_vector =  np.reshape(eighen_vector, (1, 3))
 # So now we know the weights of the criteria... 
 
 # TOPSIS ALGORITHM IMPLEMENTATION
-
-
 
 # This is the number of alternatives
 nalt = 10000
