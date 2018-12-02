@@ -1,22 +1,22 @@
 # Decision-Support System to select best celphone.
 This is a simple example of prescriptive analytics. In this case we implemented AHP and TOPSIS in python to help a human selecting a phone within an array of 10k celphone options based on a given budget.
 
-## Autor
+## Author
 
 * Patricio J. Gerpe
 
-## Tech stack
+### Tech stack
 
 * Python 2.7
 
-## Libraries:
+### Libraries:
 
 * Numpy
 
-## Running...
+### Running...
 `python celphones.py`
 
-## How it works?
+### How it works?
 We have a random-made dataset made of 10,000 of celphones with different features such as : Price, Camera MP and Use life.
 The program simply takes user input on the preferences over these criteria by applying a Saaty-scale[1] survey.
 Weight is calculated via the algorithm AHP (Analytic Hierachical Process)[1].
@@ -26,7 +26,7 @@ Weight is calculated via the algorithm AHP (Analytic Hierachical Process)[1].
 2. We compute the sum of each column needed to calculate the normalised criteria matrix.
 3. Once we calculated the normalised criteria matrix, we compute the aritmethic mean of each row, which will give us the eighen vector. (This vector indicates us the weighting of each criteria)
 
-Once we have the weights of each criteria we implement **TOPSIS**[3] algorithm.
+Once we have the weights of each criteria we implement **TOPSIS** [3] algorithm.
 
 That algorithm works the following way:
 
